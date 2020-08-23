@@ -13,6 +13,8 @@ app.get('/getCat', (req, res) => {
         if(!error && response.statusCode == 200) {
             let parsedBody = JSON.parse(body);
             res.send({parsedBody});
+        }else if(error){
+            res.send('Something broke!')
         }
     })
 })

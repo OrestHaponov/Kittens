@@ -15,10 +15,12 @@ After installing please reload your computer.
 
     git clone https://github.com/OrestHaponov/Kittens.git 
 
-4) Then open clone folder and open terminal in this folder; 
+4) Then open the clone folder and choose folder with variant of project;
 
-5) Run command "npm install"; 
+5) Open terminal in this folder; 
 
-6) Run command "npm run dev";
+6) Run command "npm install"; 
 
-6) Open this link in browser http://localhost:3000
+7) Run command "npm run dev";
+
+8) Open this link in browser http://localhost:3000

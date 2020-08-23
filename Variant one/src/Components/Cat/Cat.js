@@ -13,7 +13,9 @@ class Cat extends React.Component{
         fetch("/getCat")
             .then(res => res.json())
             .then(data =>
-                this.setState({catInfo: data.parsedBody})
+                this.setState({
+                    catInfo: data.parsedBody
+                })
             );
     };
 
